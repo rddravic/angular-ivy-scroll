@@ -1,0 +1,17 @@
+<!-- <hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p> -->
+
+<div>
+  <nav>Header</nav>
+</div>
+<div class="content">
+  <div class="card" *ngFor="let val of data; let i = index">
+    <div>{{ i }}</div>
+    <div class="id">{{ val.id }}</div>
+    <div class="title">
+      {{ val.title }}
+    </div>
+  </div>
+</div>
